@@ -11,6 +11,9 @@ import io.reactivex.disposables.CompositeDisposable
  */
 abstract class BaseActivity : AppCompatActivity() {
     internal val disposable = CompositeDisposable()
+    init {
+
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

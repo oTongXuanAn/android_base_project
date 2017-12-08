@@ -40,8 +40,8 @@ class SharedPrefs(context: Context) {
     }
 
     companion object {
-        val PREFS_NAME = "HouseRentSharedPreferences"
-        val PREFIX = "houserent_"
+        val PREFS_NAME = "BaseProjectSharedPreferences"
+        val PREFIX = "BaseProject"
         val PREF_ACCESS_TOKEN = PREFIX + "access_token"
     }
 }

@@ -20,7 +20,7 @@ class UnauthorizedBroadcast(private val mContext: Context,
     private val mBoadcastReceiver by lazy {
         object :BroadcastReceiver(){
             override fun onReceive(context: Context?, intent: Intent?) {
-                (mContext as? FragmentActivity)?.rootTo
+            //    (mContext as? FragmentActivity)?.rootTo()
             }
 
         }
